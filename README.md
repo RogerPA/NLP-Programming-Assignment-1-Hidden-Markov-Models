@@ -8,7 +8,7 @@ Parte 1:
 
 2. Generar el conteo con el archivo genereado:
     
-    python ../count_freqs.py gene_rare.train > gene.counts
+    python count_freqs.py gene_rare.train > gene.counts
 
 3. Etiquetar las palabras del dev:
     
@@ -75,7 +75,7 @@ Parte 3:
 
 2. Generar el conteo con el archivo genereado:
     
-    python ../count_freqs.py gene_info_rare.train > gene.counts
+    python count_freqs.py gene_info_rare.train > gene.counts
 
 3. Etiquetar las palabras del dev.
 Modificar los archivos de entrada y salida lineas 165, 166 y 167
